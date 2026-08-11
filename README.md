@@ -1,14 +1,7 @@
 # brain bremen
 
-This repository provides the organization profile for the **brain bremen** research institute at the **University of Bremen**.
+brain bremen is part of the [Brain Research Institute at the University of Bremen](https://www.uni-bremen.de/en/brain-research-institute) and develops open software for electrophysiology data acquisition and analysis.
 
-## Open Ephys plugins
-
-The following Open Ephys plugins are available:
-
-- **event-triggered-analysis**
-- **amplitude-estimator**
-
-## Data tooling
-
-- **dh5io**
+- **[event-triggered-analysis](https://github.com/brain-bremen/event-triggered-analysis)**: Open Ephys plugins for event-triggered analysis, including averaging as well as power and coherence spectra workflows.
+- **[amplitude-estimator](https://github.com/brain-bremen/amplitude-estimator)**: An Open Ephys plugin for amplitude estimation via rectification (RMS) to support signal quantification pipelines.
+- **[dh5io](https://github.com/brain-bremen/dh5io)**: Python tools for reading and writing the DAQ-HDF5 file format used in neuroscience and electrophysiology data workflows.
